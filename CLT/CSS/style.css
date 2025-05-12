@@ -1,0 +1,67 @@
+body {
+  background-color: #B0C5D1;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.curriculo {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 30px auto 80px; /* espaço inferior para o footer */
+  max-width: 900px;
+}
+
+img.foto {
+  width: 150px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #1B98E0;
+}
+
+/* Alinha todo o conteúdo da curriculo à esquerda */
+.curriculo h2, .curriculo p, .curriculo ul {
+  text-align: left; /* Alinha o texto à esquerda */
+  margin-left: 0; /* Garante que o texto fique alinhado na margem esquerda */
+}
+
+.curriculo ul {
+  list-style-position: inside; /* Deixa o marcador dentro da caixa de texto */
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(19, 41, 61, 0.7); /* azul escuro com transparência */
+  color: #E8F1F2;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+.social-icons {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
