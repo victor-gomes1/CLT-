@@ -22,14 +22,14 @@ img.foto {
   border: 3px solid #1B98E0;
 }
 
-/* Alinha todo o conteúdo da curriculo à esquerda */
+
 .curriculo h2, .curriculo p, .curriculo ul {
-  text-align: left; /* Alinha o texto à esquerda */
-  margin-left: 0; /* Garante que o texto fique alinhado na margem esquerda */
+  text-align: left; 
+  margin-left: 0; 
 }
 
 .curriculo ul {
-  list-style-position: inside; /* Deixa o marcador dentro da caixa de texto */
+  list-style-position: inside; 
 }
 
 .footer {
@@ -37,7 +37,7 @@ img.foto {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(19, 41, 61, 0.7); /* azul escuro com transparência */
+  background: rgba(19, 41, 61, 0.7); 
   color: #E8F1F2;
   text-align: center;
   padding: 15px 0;
