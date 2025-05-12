@@ -1,7 +1,7 @@
 body {
   background-color: #B0C5D1;
   margin: 0;
-  padding: 0;
+  padding: 40px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -10,7 +10,7 @@ body {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  margin: 30px auto 80px; /* espaço inferior para o footer */
+  margin: 30px auto 80px;
   max-width: 900px;
 }
 
@@ -22,14 +22,15 @@ img.foto {
   border: 3px solid #1B98E0;
 }
 
-
-.curriculo h2, .curriculo p, .curriculo ul {
-  text-align: left; 
-  margin-left: 0; 
+.curriculo h2,
+.curriculo p,
+.curriculo ul {
+  text-align: left;
+  margin-left: 0;
 }
 
 .curriculo ul {
-  list-style-position: inside; 
+  list-style-position: inside;
 }
 
 .footer {
@@ -37,7 +38,7 @@ img.foto {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: rgba(19, 41, 61, 0.7); 
+  background: rgba(19, 41, 61, 0.7);
   color: #E8F1F2;
   text-align: center;
   padding: 15px 0;
@@ -47,6 +48,7 @@ img.foto {
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
+
 .social-icons {
   text-align: right;
   margin-top: 10px;
@@ -64,4 +66,39 @@ img.foto {
 
 .icon:hover {
   transform: scale(1.1);
+}
+
+.container {
+  max-width: 800px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #13293D;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+fieldset {
+  border: 2px solid #006494;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+legend {
+  font-weight: bold;
+  color: #247BA0;
+  padding: 0 10px;
+}
+
+label {
+  font-weight: 500;
+}
+
+button {
+  margin-right: 10px;
 }
