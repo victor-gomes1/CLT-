@@ -1,18 +1,23 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const btnFormulario = document.getElementById('btnFormulario');
-    const btnVoltar = document.getElementById('btnVoltar');
-    const secaoCurriculo = document.getElementById('curriculo');
-    const secaoFormulario = document.getElementById('formulario');
+document.addEventListener("DOMContentLoaded", () => {
+    const btnFormulario = document.getElementById("btnFormulario");
+    const formulario = document.getElementById("formulario");
+    const btnVoltar = document.getElementById("btnVoltar");
 
-    
-    btnFormulario.addEventListener('click', () => {
-        secaoCurriculo.style.display = 'none';
-        secaoFormulario.style.display = 'block';
-    });
+    // Verifica se o botão e o formulário existem no DOM
+    if (btnFormulario && formulario) {
+        btnFormulario.addEventListener("click", () => {
+            formulario.style.display = "block"; // Exibe o formulário
+        });
+    } else {
+        console.error("O botão 'btnFormulario' ou o formulário 'formulario' não foi encontrado no DOM.");
+    }
 
-    
-    btnVoltar.addEventListener('click', () => {
-        secaoFormulario.style.display = 'none';
-        secaoCurriculo.style.display = 'block';
-    });
+    // Verifica se o botão de voltar existe no DOM
+    if (btnVoltar) {
+        btnVoltar.addEventListener("click", () => {
+            formulario.style.display = "none"; // Oculta o formulário
+        });
+    } else {
+        console.error("O botão 'btnVoltar' não foi encontrado no DOM.");
+    }
 });
